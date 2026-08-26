@@ -2,28 +2,28 @@
 class Ore < Formula
   desc "Coding agent for the terminal"
   homepage "https://github.com/ore-cli/ore"
-  version "1.149.0"
+  version "1.149.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ore-cli/ore/releases/download/ore-v1.149.0/codex-package-aarch64-apple-darwin.tar.gz"
-      sha256 "bdf1a9473a85e9c12bcd8393432e7a74df9134573dcc1df5f54dd4a915c2a207"
+      url "https://github.com/ore-cli/ore/releases/download/ore-v1.149.1/codex-package-aarch64-apple-darwin.tar.gz"
+      sha256 "469d9f451df1c566abe1d3cf4679ed7a6687ad87e7fc439c4514ca46b48021b3"
     end
     on_intel do
-      url "https://github.com/ore-cli/ore/releases/download/ore-v1.149.0/codex-package-x86_64-apple-darwin.tar.gz"
-      sha256 "d861206bbed73a9c422aa3f269b40aa6f4b165ac66210e667a857c3209734895"
+      url "https://github.com/ore-cli/ore/releases/download/ore-v1.149.1/codex-package-x86_64-apple-darwin.tar.gz"
+      sha256 "e73ceb556bb19e917a6d348f76b830fbdab3c8a9954bf5de4d8de1accb1813e5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ore-cli/ore/releases/download/ore-v1.149.0/codex-package-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1f7eb18cd223f7d2903213e73c523b713854d9bc4fbb48d924dbd0d5074e868e"
+      url "https://github.com/ore-cli/ore/releases/download/ore-v1.149.1/codex-package-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "de15d1edf691221b4d815c316754dc007de82acc09ab0928b81bd954cfcff720"
     end
     on_intel do
-      url "https://github.com/ore-cli/ore/releases/download/ore-v1.149.0/codex-package-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "29962d9413c2a0bcb5fd09db8bf6c8d3f2184d57af74f242987d5385aa03badb"
+      url "https://github.com/ore-cli/ore/releases/download/ore-v1.149.1/codex-package-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "417b315a1ac7a205b15a93d7b832e9288368af7eacb94f3f744e806291a334c7"
     end
   end
 
